@@ -30,8 +30,3 @@ pids
 *.pid
 *.seed
 *.pid.lock
-
-
-google-services.json
-firebase.webfcm.test.html
-chatskytrackapp-firebase-adminsdk-fbsvc-10b7744d83.json
