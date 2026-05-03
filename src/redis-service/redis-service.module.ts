@@ -1,11 +1,10 @@
 import Redis from 'ioredis';
 import { Module } from '@nestjs/common';
-import { FirebaseServiceModule } from '../firebase-service/firebase-service.module';
 import { LoggerPrintService } from '../logger-print/logger-print.service';
 import { RedisServiceService } from './redis-service.service';
 
 @Module({
-  imports: [FirebaseServiceModule],
+  imports: [],
   exports: [RedisServiceService],
   providers: [
     RedisServiceService,
